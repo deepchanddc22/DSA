@@ -33,16 +33,13 @@ class Solution(object):
         arr1.sort(key=lambda x: cus_dict.get(x, len(arr2) + x))
         return arr1
 
-
-
 arr1 = [2,3,1,3,2,4,6,7,9,2,19]
 arr2 = [2,1,4,3,9,6]
 sol = Solution()
 sorted_arr1 = sol.relativeSortArray(arr1, arr2)
 
-# Print the result
 print(sorted_arr1)
 
-'''Concepts to remember from this problem
+'''Concepts to learn from this problem
 1) creating hashmaps
 2) Using custom sort function'''
