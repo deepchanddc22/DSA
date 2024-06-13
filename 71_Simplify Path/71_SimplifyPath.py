@@ -5,10 +5,11 @@ class Solution(object):
         stack = []
 
         for word in components:
-            if word == '' or word == '.':
-                continue
+            if word == '' or word == '.':             
+                continue                
             elif word == "..":
-                stack.pop()
+                if stack:
+                    stack.pop()
             else:
                 stack.append(word)
 
@@ -17,3 +18,7 @@ class Solution(object):
 path = "/home/user/Documents/../Pictures"
 sol = Solution()
 print(sol.simplifyPath(path))
+
+'''Concepts to learn
+1) Use of Stack
+2) .join() method'''
