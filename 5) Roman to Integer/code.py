@@ -15,7 +15,7 @@ class Solution(object):
 
         for i in range(n):
             value = roman_to_int[s[i]]
-            if i + 1 < n and roman_to_int[s[i + 1]] > value:
+            if i + 1 < n and roman_to_int[s[i + 1]] > value:                  
                 total -= value
             else:
                 total += value
