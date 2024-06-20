@@ -12,7 +12,7 @@ class Solution(object):
         for ability in worker:
             while j < len(jobs) and ability >= jobs[j][0]:
               
-                best_profit = max(best_profit, jobs[j][1])
+                best_profit = max(best_profit, jobs[j][1])                                
                 j += 1
            
             TotalProfit += best_profit
