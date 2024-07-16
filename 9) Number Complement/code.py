@@ -27,7 +27,6 @@ class Solution(object):
             new_num = new_num + 2**j*arr[j]
 
         return new_num
-
     
 
         
