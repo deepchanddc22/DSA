@@ -79,6 +79,17 @@ Mastering Data Structures and Algorithms (DSA) is crucial for developing efficie
    - Floyd-Warshall algorithm
    - A* search algorithm
 
+8. Extras ( Must Revise )
+  - Kadane's Algorithm
+
+
+
+
+
+
+
+
+
 ### Practice and Implementation
 - Practice problems on platforms like LeetCode, HackerRank, and CodeSignal.
 - Implement each data structure and algorithm from scratch in Python to understand the inner workings.
